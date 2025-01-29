@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lib.Harmony" Version="2.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Game2.Client">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\Game2.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Game2.Game">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\Game2.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Client">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\VRage.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Core">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\VRage.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.DCS">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\VRage.DCS.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Library">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\VRage.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
